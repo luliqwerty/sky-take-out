@@ -34,10 +34,12 @@ public class CommonController {
     public Result<String> upload(MultipartFile file) {
         log.info("文件上传：{}", file);
 
+        // 设置文件名和后缀
         String originalFilename = file.getOriginalFilename();
         String suffix = originalFilename.substring(originalFilename.lastIndexOf("."));
         String objectName = UUID.randomUUID() + suffix;
 
+        // 调用 upload 方法调用 AliOss 实现文件上传
         try {
             String filePath = aliOssUtil.upload(file.getBytes(), objectName);
             return Result.success(filePath);
