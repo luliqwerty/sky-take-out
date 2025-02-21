@@ -1108,3 +1108,7 @@
 127.0.0.1 - - [20/Feb/2025:11:04:33 +0800] "GET /api/category/list?type=1 HTTP/1.1" 200 1323 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
 127.0.0.1 - - [20/Feb/2025:11:04:34 +0800] "GET /api/shop/status HTTP/1.1" 200 41 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
 127.0.0.1 - - [20/Feb/2025:11:04:34 +0800] "GET /ws/mh717qecvv HTTP/1.1" 404 95 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+127.0.0.1 - - [20/Feb/2025:21:10:32 +0800] "GET /api/dish/page?page=1&pageSize=10&status= HTTP/1.1" 502 494 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+127.0.0.1 - - [20/Feb/2025:21:10:32 +0800] "GET /ws/xd3ot7b6cil HTTP/1.1" 502 494 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+127.0.0.1 - - [20/Feb/2025:21:10:32 +0800] "GET /api/shop/status HTTP/1.1" 502 494 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+127.0.0.1 - - [20/Feb/2025:21:10:33 +0800] "GET /api/category/list?type=1 HTTP/1.1" 499 0 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
