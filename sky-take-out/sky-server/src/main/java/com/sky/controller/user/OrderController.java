@@ -70,6 +70,7 @@ public class OrderController {
 
     /**
      * 根据 id 查询订单详情
+     *
      * @param id
      * @return
      */
@@ -103,6 +104,19 @@ public class OrderController {
     @ApiOperation("再来一单")
     public Result repetition(@PathVariable Long id) {
         orderService.repetition(id);
+        return Result.success();
+    }
+
+    /**
+     * 用户催单
+     * @param id
+     * @return
+     */
+    @GetMapping("/reminder/{id}")
+    @ApiOperation("用户催单")
+    public Result reminder(@PathVariable("id") Long id) {
+        log.info("用户催单");
+        orderService.reminder(id);
         return Result.success();
     }
 }
